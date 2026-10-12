@@ -14,7 +14,7 @@ import numpy as np
 
 """### Cause of death dataset"""
 
-df = pd.read_csv("/content/Cause_of_death.csv", sep=';', header=1, engine='python', on_bad_lines='warn')
+df = pd.read_csv("Cause_of_death.csv", sep=';', header=1, engine='python', on_bad_lines='warn')
 
 cols_to_fix = ['2014', '2015', '2016', '2017','2018', '2019', '2020', '2021', '2022', '2023', '2024']
 
@@ -39,7 +39,7 @@ yearly_by_group
 
 """### Population size dataset"""
 
-df_population = pd.read_csv("/content/Population_Sweden.csv", sep=';', header=0, engine='python', on_bad_lines='warn', encoding='latin1')
+df_population = pd.read_csv("Population_Sweden.csv", sep=';', header=0, engine='python', on_bad_lines='warn', encoding='latin1')
 df_population.head()
 
 df_population_long = pd.melt(df_population, id_vars=['region', 'marital status', 'sex'],
