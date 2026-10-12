@@ -1,0 +1,1 @@
+This is a mini-project as part of a Coursera course "Applied Plotting, Charting & Data Representation in Python" by University of Michigan. The project contains cleaning of two publicly avilable Swedish population and causes of death data files and representation of this data in figures.
